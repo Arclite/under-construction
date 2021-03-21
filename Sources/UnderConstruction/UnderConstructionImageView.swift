@@ -1,14 +1,14 @@
 import UIKit
 
-class UnderConstructionImageView: UIImageView {
-    init() {
+public class UnderConstructionImageView: UIImageView {
+    public init() {
         super.init(frame: .zero)
         translatesAutoresizingMaskIntoConstraints = false
 
         loadImages()
     }
 
-    required init?(coder: NSCoder) {
+    public required init?(coder: NSCoder) {
         super.init(coder: coder)
         loadImages()
     }
